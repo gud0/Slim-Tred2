@@ -1,0 +1,21 @@
+<footer class="site-footer">
+
+<p><txp:if_variable name="front-page"><txp:link_to_home class="up">Top&uarr;</txp:link_to_home><txp:else /><txp:link_to_home class="prev">Home&larr;</txp:link_to_home></txp:if_variable>
+ &middot; <span itemprop="ContactPage" itemscope itemtype="https://schema.org/ContactPage">
+<a href="<txp:site_url />contact/" itemprop="url" class="up" title="<txp:text item="read_more" />">
+&rarr;Contact</a></span></p>
+<br />
+<p itemprop="webFeed">
+<txp:feed_link wraptag="span" class="atom" flavor="atom" section="">
+<img src="<txp:page_url type="theme_path" />/styles/img/5atom.png" alt="atom feed icon" width="35" height="43" />
+</txp:feed_link>
+</p>
+<br />
+
+<p><txp:text item="published_with" /> <a rel="external" href="https://textpattern.com/" title="<txp:text item="go_txp_com" />">Textpattern CMS</a> &middot; Design is a <a rel="external" href="https://gud.one/" title="go to gud.one">Gud One</a>
+</p>
+
+		<a class="topr" href="" > ↑ </a>
+		<a class="topl" href="" > ↑ </a>
+
+</footer>

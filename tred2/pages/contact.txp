@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="<txp:lang />" dir="<txp:text item="lang_dir" />">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title><txp:page_title /></title>
+
+<txp:evaluate query='"<txp:site_url trim="/" /><txp:page_url type="req" />" != "<txp:page_url context="id, s, c, context, q, m, month, author, commented" />"'>
+    <txp:txp_die status="404" />
+</txp:evaluate>
+
+<link rel="stylesheet" href="<txp:page_url type="theme_path" />/styles/<txp:page_url type="theme" />.css">
+
+<meta name="HandheldFriendly" content="true" />
+    <meta name="generator" content="Textpattern CMS">
+
+
+            <txp:meta_description />
+                    <meta name="robots" content="index, follow">
+                    <link rel="canonical" href="<txp:section url />">
+                    <script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "ContactPage",
+                            "headline": "<txp:section title escape="json" />",
+                            <txp:if_description>"description": "<txp:meta_description format="" escape="json" />",</txp:if_description>
+                            "url": "<txp:section url escape="json" />"
+                        }
+                    </script>
+
+    <txp:feed_link flavor="atom" format="link" label="Atom" />
+</head>
+
+<body class="<txp:section />-page" itemscope itemtype="https://schema.org/ContactPage">
+
+<txp:output_form form="body_header" />
+
+    <div class="wrapper">
+        <div class="container">
+            <main id="main" aria-label="<txp:text item="main_content" />" itemscope itemtype="https://schema.org/Blog">
+
+<p class="gdpr">GDPR: When you send a message you have accepted cookies.</p>
+
+<txp:com_connect to="recipient@example.com" />
+
+<txp:hide>
+You might want to put your contact details here. For example:
+<address class="h-card vcard touch">
+	<p class="contact">
+		<a class="p-tel tel" href="tel:01234567890">01234&nbsp;567890
+		</a> &nbsp; 
+		<a class="u-email email" href="mailto:email(AT)example.com">EMAIL@EXAMPLE.COM
+		</a><br />
+		<span class="p-street-address street-address">1 Main&nbsp;Street</span>, 
+		<span class="p-locality locality">Little&nbsp;Place, Bigtown</span>, 
+		<span class="p-region region">Middleshire</span>, 
+		<span class="p-postal-code postal-code">AA2&nbsp;2ZZ</span>    
+	</p>
+</address>
+</txp:hide>
+
+            </main>
+
+            <txp:output_form form="body_aside" />
+
+            <txp:output_form form="body_footer" />
+
+        </div> <!-- /.container -->
+    </div> <!-- /.wrapper -->
+
+
+
+</body>
+</html>

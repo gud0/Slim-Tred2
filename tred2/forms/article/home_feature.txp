@@ -1,0 +1,7 @@
+<div class="feature">
+<article class="article featured" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <h2 class="visually-hidden">Theme instructions</h2>
+<p class="featureleft" itemprop="abstract">This teaser is fixed &mdash; (home_feature form) &mdash; so use to draw attention to something special or permanent. <a class="next" href="<txp:permlink />" itemprop="url isPartOf" title="<txp:text item="read_more" />">More&hellip;</a></p>
+  <img class="featureright" src="<txp:page_url type="theme_path" />/styles/img/5atom.png" alt="atom feed icon" width="35" height="43" />
+</article>
+</div>

@@ -1,0 +1,26 @@
+INSTRUCTIONS FOR SLIM THEMES FOR TEXTPATTERN
+
+These instructions assume you have a clean install of Textpattern and all is working as expected. On a used site, your experience may vary. You have also opened the Slim-(theme-name) zip file.
+
+1 Transfer the (theme-name) folder into your remote site's themes folder
+
+2 In your site's admin-side, open Presentation > Themes. Import the theme you just transferred
+
+3 Next to this theme name, click Assign sections
+
+4 Change the theme so that the new theme is In Use (tick both Development and Live and then Go)
+
+5 Your site front-end should now show the new theme.
+
+-----
+
+RECOMMENDED. A few adjustments are recommended to get the most from your new theme.
+
+1 Subheadings. (Custom1 is dedicated to creating a subheading under the article title) In Content > Articles > Welcome to your site, copy "What do you want to do next?" into the custom1 custom field. Delete it (and the h3.) from Body. Save. 
+
+2 Contact Form. If you scroll down the home page you will see a Contact Form listed but clicking brings a 404. Please install the 'com_connect' plugin so your contact form will work. In the 'contact' Page you will find 
+<txp:com_connect to="recipient@example.com" /> You will need to change this to your email address. You will also need to create a new section called 'contact' which uses the 'contact' page. 
+
+3 Search. Please install 'wet_haystack' plugin so site search will include categories, excerpts and custom fields.
+
+4 Article URL pattern. Best set to '/title'.

@@ -1,0 +1,14 @@
+<aside class="complementary-content">
+
+<div class="aside">
+
+    <!-- if links exist, renders a links list -->
+    <txp:evaluate test="linklist">
+        <section>
+            <h4><txp:text item="links" /></h4>
+            <!-- links by default to form: 'plainlinks.txp' unless you specify a different form -->
+            <txp:linklist wraptag="ul" break="li" />
+        </section>
+    </txp:evaluate>
+</div>
+</aside>
