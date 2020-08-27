@@ -7,7 +7,7 @@
 <br />
 <p itemprop="webFeed">
 <txp:feed_link wraptag="span" class="atom" flavor="atom" section="">
-<img src="<txp:page_url type="theme_path" />/styles/img/5atom.png" alt="atom feed icon" width="35" height="43" />
+<img src="<txp:page_url type="theme_path" />/img/5atom.png" alt="atom feed icon" width="35" height="43" />
 </txp:feed_link>
 </p>
 <br />

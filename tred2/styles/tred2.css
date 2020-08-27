@@ -4,40 +4,40 @@
   font-family: 'Alegreya';
   font-weight: normal;
   font-style: normal;
-src: url('font/Alegreya-Regular.eot');
-src: url('font/Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-Regular.woff2') format('woff2'),
-url('font/Alegreya-Regular.woff') format('woff');
+src: url('../font/Alegreya-Regular.eot');
+src: url('../font/Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-Regular.woff2') format('woff2'),
+url('../font/Alegreya-Regular.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Alegreya';
   font-weight: normal;
   font-style: italic;
-src: url('font/Alegreya-Italic.eot');
-src: url('font/Alegreya-Italic.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-Italic.woff2') format('woff2'),
-url('font/Alegreya-Italic.woff') format('woff');
+src: url('../font/Alegreya-Italic.eot');
+src: url('../font/Alegreya-Italic.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-Italic.woff2') format('woff2'),
+url('../font/Alegreya-Italic.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Alegreya';
   font-weight: bold;
   font-style: normal;
-src: url('font/Alegreya-Bold.eot');
-src: url('font/Alegreya-Bold.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-Bold.woff2') format('woff2'),
-url('font/Alegreya-Bold.woff') format('woff');
+src: url('../font/Alegreya-Bold.eot');
+src: url('../font/Alegreya-Bold.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-Bold.woff2') format('woff2'),
+url('../font/Alegreya-Bold.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Alegreya';
   font-weight: bold;
   font-style: italic;
-src: url('font/Alegreya-BoldItalic.eot');
-src: url('font/Alegreya-BoldItalic.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-BoldItalic.woff2') format('woff2'),
-url('font/Alegreya-BoldItalic.woff') format('woff');
+src: url('../font/Alegreya-BoldItalic.eot');
+src: url('../font/Alegreya-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-BoldItalic.woff2') format('woff2'),
+url('../font/Alegreya-BoldItalic.woff') format('woff');
   font-display: swap;
 }
 
@@ -45,10 +45,10 @@ url('font/Alegreya-BoldItalic.woff') format('woff');
   font-family: 'Londrina';
   font-weight: normal;
   font-style: normal;
-src: url('font/LondrinaSolid.eot');
-src: url('font/LondrinaSolid.eot?#iefix') format('embedded-opentype'),
-url('font/LondrinaSolid.woff2') format('woff2'),
-url('font/LondrinaSolid.woff') format('woff');
+src: url('../font/LondrinaSolid.eot');
+src: url('../font/LondrinaSolid.eot?#iefix') format('embedded-opentype'),
+url('../font/LondrinaSolid.woff2') format('woff2'),
+url('../font/LondrinaSolid.woff') format('woff');
   font-display: swap;
 }
 
@@ -56,20 +56,20 @@ url('font/LondrinaSolid.woff') format('woff');
   font-family: 'AlegreyaSC';
   font-weight: normal;
   font-style: normal;
-src: url('font/AlegreyaSansSC-Light.eot');
-src: url('font/AlegreyaSansSC-Light.eot?#iefix') format('embedded-opentype'),
-url('font/AlegreyaSansSC-Light.woff2') format('woff2'),
-url('font/AlegreyaSansSC-Light.woff') format('woff');
+src: url('../font/AlegreyaSansSC-Light.eot');
+src: url('../font/AlegreyaSansSC-Light.eot?#iefix') format('embedded-opentype'),
+url('../font/AlegreyaSansSC-Light.woff2') format('woff2'),
+url('../font/AlegreyaSansSC-Light.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Inconsolata';
   font-weight: normal;
   font-style: normal;
-src: url('font/Inconsolata.eot');
-src: url('font/Inconsolata.eot?#iefix') format('embedded-opentype'),
-url('font/Inconsolata.woff2') format('woff2'),
-url('font/Inconsolata.woff') format('woff');
+src: url('../font/Inconsolata.eot');
+src: url('../font/Inconsolata.eot?#iefix') format('embedded-opentype'),
+url('../font/Inconsolata.woff2') format('woff2'),
+url('../font/Inconsolata.woff') format('woff');
   font-display: swap;
 }
 
@@ -147,7 +147,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   font-size: 100.01%;
-  background: transparent url(img/1tredbg.png) repeat-x top center;
+  background: transparent url(../img/1tredbg.png) repeat-x top center;
 }
 
 
@@ -159,7 +159,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0; 
-    background: transparent url(img/2tred.jpg) no-repeat top center; 
+    background: transparent url(../img/2tred.jpg) no-repeat top center; 
   }
 
   /* ==========================================================================
@@ -661,7 +661,7 @@ hr {
     width:100%; 
     height: 1px;
     margin: 1.618em auto;
-    background: url(img/4horizontal-rule.png) no-repeat center;
+    background: url(../img/4horizontal-rule.png) no-repeat center;
     background-size: contain;
     border:none;
   }
@@ -1826,7 +1826,7 @@ td {
 }
 
 /* ==========================================================================
-   COLOURS USED (Tip: look at themecolours.png in Styles/img folder)
+   COLOURS USED (Tip: look at themecolours.png in img folder)
    ========================================================================== */
 
 .site-header,
@@ -1950,8 +1950,7 @@ a.topr:active,
 p#txpCommentInputForm,
 .site-header a:hover, 
 .site-header a:active,
-.required,
-.gdpr
+.required
   {color: #a64ab5;  }
 
 a:focus 
@@ -1963,6 +1962,7 @@ a:focus
 
 .bodywrap p:first-of-type:first-letter,
 .latest-p:first-letter,
+.gdpr,
 mark,
 var,
 blockquote, 
